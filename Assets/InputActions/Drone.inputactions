@@ -269,6 +269,17 @@
                 },
                 {
                     "name": "",
+                    "id": "608275bf-3417-410b-88b3-b170851b934a",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Cameras",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cb2ada5e-6743-41e6-9511-d7d01f50b0f0",
                     "path": "",
                     "interactions": "",
