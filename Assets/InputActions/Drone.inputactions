@@ -61,15 +61,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "52334a27-84ea-4a8b-81d6-3445be455cb8",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "MenuAndPause",
                     "type": "Button",
                     "id": "58be9c50-ff58-498c-8bde-f9cb2bf2d396",
@@ -280,19 +271,19 @@
                 },
                 {
                     "name": "",
-                    "id": "cb2ada5e-6743-41e6-9511-d7d01f50b0f0",
-                    "path": "",
+                    "id": "a2f4140a-b7cf-4c48-9da2-a30a3b5a9799",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "MenuAndPause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "a2f4140a-b7cf-4c48-9da2-a30a3b5a9799",
-                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "id": "e147e3c5-9ba1-479f-bc7d-7cd6d3f4500e",
+                    "path": "<Keyboard>/l",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

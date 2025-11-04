@@ -27,11 +27,16 @@ public class InputModeSwitcher : MonoBehaviour
         SetMode(isVR);
     }
 
-    void SetMode(bool vrMode)
+    public void SetMode(bool vrMode)
     {
         virtualInput.enabled = vrMode;
         controllerInput.enabled = !vrMode;
 
         Debug.Log("Tryb sterowania: " + (vrMode ? "VR Levers" : "Gamepad"));
+    }
+
+    public bool GetMode()
+    {
+        return isVR;
     }
 }
