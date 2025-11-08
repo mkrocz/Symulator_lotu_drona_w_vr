@@ -17,18 +17,21 @@ public class VignetteStrengthController : MonoBehaviour
     {
         if (slider != null)
         {
-            float savedValue = PlayerPrefs.GetFloat(playerPrefKey, 0f);
-            slider.value = savedValue;
+            float sliderValue = PlayerPrefs.GetFloat("vignetteStrengthSlider", 0f);
+            slider.value = sliderValue;
             slider.onValueChanged.AddListener(OnValueChanged);
         }
+        float vignetteStrength = PlayerPrefs.GetFloat("vignetteStrength", 0f);
+        UpdateVignetteStrength(vignetteStrength);
     }
 
     public void OnValueChanged(float sliderValue)
     {
-        PlayerPrefs.SetFloat(playerPrefKey, sliderValue);
+        PlayerPrefs.SetFloat("vignetteStrengthSlider", sliderValue);
         PlayerPrefs.Save();
 
-        float vignetteStrength = sliderValue = 0.6f + (sliderValue * 0.3f);
+        float vignetteStrength = (0.9f - (sliderValue * 0.3f));
+        PlayerPrefs.SetFloat("vignetteStrength", vignetteStrength);
 
         UpdateVignetteStrength(vignetteStrength);
     }

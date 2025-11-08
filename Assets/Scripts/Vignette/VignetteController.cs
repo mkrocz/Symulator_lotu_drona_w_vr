@@ -4,17 +4,13 @@ using UnityEngine;
 [RequireComponent(typeof(Renderer))]
 public class VignetteController : MonoBehaviour
 {
-    [Header("Referencje")]
     public Transform drone;
 
-    [Header("Parametry winiety")]
     [Range(0f, 1f)] public float targetAperture;
     [Range(0f, 1f)] public float targetFeather;
 
-    [Header("P³ynnoœæ przejœcia")]
     public float smoothSpeed = 5f;
 
-    [Header("Sterowanie ruchem drona")]
     public float movementThreshold = 0.05f;
     public float stopDelay = 0.2f;
 
@@ -27,6 +23,12 @@ public class VignetteController : MonoBehaviour
 
     private Vector3 lastPos;
     private float stopTimer = 0f;
+
+
+    private void Start()
+    {
+        targetAperture = PlayerPrefs.GetFloat("vignetteStrength", 0f);
+    }
 
     void Awake()
     {

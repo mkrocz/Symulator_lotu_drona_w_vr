@@ -8,6 +8,7 @@ public class WindSetting : MonoBehaviour
     private Toggle toggle;
 
     public DroneMovement droneMovement;
+    public UiManager uiManager;
 
     void Awake()
     {
@@ -41,6 +42,7 @@ public class WindSetting : MonoBehaviour
     private void UpdateWind(bool isOn)
     {
         droneMovement.SetWind(isOn);
+        uiManager.SetIsWindActive(isOn);
     }
 
 }
