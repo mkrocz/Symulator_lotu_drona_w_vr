@@ -13,11 +13,24 @@ public class DroneMovement : MonoBehaviour
 
     private Rigidbody rb;
 
-    private Vector3 lastPosition;
+
+    // Realistyczny ruch drona
+    private bool simpleMovement;
+    public Transform droneModel;
+    public float tiltAmount = 15f;
+    public float tiltSpeed = 5f;
+
+    // Wpływ wiatru
+    bool isWindActive;
+    public WindController wind;
+    public float windInfluence = 0.5f;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        simpleMovement = PlayerPrefs.GetInt("SimpleMovement", 0) == 1;
+        isWindActive = PlayerPrefs.GetInt("Wind", 0) == 1;
         // Potrzebne do obliczenia predkosci
         //lastPosition = rb.position;
     }
@@ -65,24 +78,52 @@ public class DroneMovement : MonoBehaviour
                 }
             }
         }
-
         // Utrzymanie poziomu
         Quaternion desiredRotation = Quaternion.Euler(0, rb.rotation.eulerAngles.y, 0);
         rb.rotation = Quaternion.RotateTowards(rb.rotation, desiredRotation, 360 * Time.fixedDeltaTime);
 
+        if (!simpleMovement)
+            DroneTilting(totalMovement);
 
-
-        // Obliczanie predkosci (debug)
-        /*
-        Vector3 velocity = (rb.position - lastPosition) / Time.fixedDeltaTime;
-        float horizontalSpeed = new Vector3(velocity.x, 0, velocity.z).magnitude;
-        float verticalSpeed = velocity.y;
-        float totalSpeed = velocity.magnitude;
-
-        Debug.Log($"Predkość pozioma: {horizontalSpeed:F2}, pionowa: {verticalSpeed:F2}, calkowita: {totalSpeed:F2}");
-
-        lastPosition = rb.position;
-        */
+        if (isWindActive)
+            WindInfluence(rb);
 
     }
+
+
+    private void DroneTilting(Vector3 totalMovement)
+    {
+        // Przechylanie drona przy poruszaniu
+        if (droneModel != null)
+        {
+            Vector3 worldVelocityEstimate = totalMovement;
+            Vector3 localVelocity = transform.InverseTransformDirection(worldVelocityEstimate);
+
+            float tiltForward = Mathf.Clamp(localVelocity.z * tiltAmount, -tiltAmount, tiltAmount);
+            float tiltSide = Mathf.Clamp(-localVelocity.x * tiltAmount, -tiltAmount, tiltAmount);
+
+            Quaternion targetTilt = Quaternion.Euler(tiltForward, 0, tiltSide);
+            droneModel.localRotation = Quaternion.Slerp(droneModel.localRotation, targetTilt, Time.fixedDeltaTime * tiltSpeed);
+        }
+    }
+
+    private void WindInfluence(Rigidbody rb)
+    {
+        if (wind != null && windInfluence > 0f)
+        {
+            Vector3 windForce = wind.GetWind() * windInfluence;
+            rb.MovePosition(rb.position + windForce * Time.fixedDeltaTime);
+        }
+    }
+
+    public void SetSimpleMovement(bool simpleMovement)
+    {
+        this.simpleMovement = simpleMovement;
+    }
+
+    public void SetWind(bool wind)
+    {
+        this.isWindActive = wind;
+    }
+
 }

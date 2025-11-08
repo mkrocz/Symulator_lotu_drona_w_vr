@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class DroneInfo : MonoBehaviour
 {
-    private Rigidbody rb;
+    public Rigidbody rb;
 
     private Vector3 lastPosition;
     private Vector3 velocity;
-    private float speed;
+    private float horizontalSpeed;
+    private float verticalSpeed;
 
     void Start()
     {
@@ -17,7 +18,13 @@ public class DroneInfo : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 currentPosition = rb.position;
-        speed = Vector3.Distance(currentPosition, lastPosition) / Time.fixedDeltaTime;
+
+        velocity = (currentPosition - lastPosition) / Time.fixedDeltaTime;
+
+        Vector3 horizontalVelocity = new Vector3(velocity.x, 0f, velocity.z);
+        horizontalSpeed = horizontalVelocity.magnitude;
+        verticalSpeed = Mathf.Abs(velocity.y);
+
         lastPosition = currentPosition;
     }
 
@@ -32,8 +39,13 @@ public class DroneInfo : MonoBehaviour
         return velocity;
     }
 
-    public float GetSpeed()
+    public float GetHorizontalSpeed()
     {
-        return speed;
+        return horizontalSpeed;
+    }
+
+    public float GetVerticalSpeed()
+    {
+        return verticalSpeed;
     }
 }
