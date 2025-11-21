@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+// Controls the strength of the vignette effect based on a UI slider.
+// Syncs the slider with PlayerPrefs and updates the target vignette aperture.
 public class VignetteStrengthController : MonoBehaviour
 {
     public VignetteController vignetteController;
@@ -30,6 +32,7 @@ public class VignetteStrengthController : MonoBehaviour
         PlayerPrefs.SetFloat("vignetteStrengthSlider", sliderValue);
         PlayerPrefs.Save();
 
+        // Convert slider value (0-1) to vignette aperture (0.9–0.6)
         float vignetteStrength = (0.9f - (sliderValue * 0.3f));
         PlayerPrefs.SetFloat("vignetteStrength", vignetteStrength);
 

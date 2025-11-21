@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// Generates a dynamic wind force with random direction and strength.
+// Other scripts can query current wind using GetWind().
 public class WindController : MonoBehaviour
 {
     public float minChangeInterval = 5f;

@@ -68,6 +68,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "TutorialNext",
+                    "type": "Button",
+                    "id": "361f5a29-2faf-4ad6-9f44-79ba8e650fa2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -272,7 +281,7 @@
                 {
                     "name": "",
                     "id": "a2f4140a-b7cf-4c48-9da2-a30a3b5a9799",
-                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -288,6 +297,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "MenuAndPause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa0348f0-4697-4294-8644-30c1f134b1cd",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TutorialNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a64c163-e98a-4599-8ef4-1bfb8ff5c248",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TutorialNext",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

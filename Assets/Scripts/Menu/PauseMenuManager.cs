@@ -3,6 +3,10 @@ using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
+
+// Handles the pause menu behavior in VR.
+// Enables/disables pause UI, ray interactors, drone, screen, and controller.
+// Also pauses/resumes time and manages camera view when in FPV mode.
 public class PauseMenuController : MonoBehaviour
 {
     public GameObject pauseMenuUI;
@@ -49,6 +53,7 @@ public class PauseMenuController : MonoBehaviour
 
     private void Pause()
     {
+        // Remember if FPV was active and switch to 3rd person view
         if (cameraManager != null)
         {
             wasFPVActive = cameraManager.isFPVEnabled();
@@ -63,11 +68,15 @@ public class PauseMenuController : MonoBehaviour
         isPaused = true;
         Time.timeScale = 0f;
 
+        // Show pause menu, enable interaction, disable unnecessary models that could potentially block the view
         pauseMenuUI.SetActive(true);
         SetRayInteractorsActive(true);
         DisableController(false);
         DisableScreen(false);
         DisableDrone(false);
+
+
+        // Disable camera switch input while in paused state
         cameraManager.switchViewAction.action.Disable();
 
 

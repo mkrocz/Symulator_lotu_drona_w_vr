@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5954bbae4ab07046955f11267a69674, type: 3}
+  m_Name: Pause Menu
+  m_EditorClassIdentifier: Assembly-CSharp::PauseMenuTutorialStep
+  instructionText: "Menu pauzy pozwala na zatrzymanie rozgrywki i zmian\u0119 ustawie\u0144.
+    Aby wybra\u0107 opcj\u0119 w menu wska\u017C j\u0105 kontrolerem i wci\u015Bnij
+    spust na kontrolerze. Naci\u015Bnij przycisk A, aby zatrzyma\u0107 gr\u0119 i
+    wy\u015Bwietli\u0107 menu, a nast\u0119pnie naci\u015Bnij A ponownie, \u017Ceby
+    j\u0105 wznowi\u0107."
+  actionType: 0
+  requiredAction: {fileID: 3334010640046666798, guid: d5da3bce2701a8e4995edc4a3c00f62a, type: 3}

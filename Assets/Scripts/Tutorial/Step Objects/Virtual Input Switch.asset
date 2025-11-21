@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9b0d04147ffb945ab025cd0fae508f, type: 3}
+  m_Name: Virtual Input Switch
+  m_EditorClassIdentifier: Assembly-CSharp::VirtualInputSwitchStep
+  instructionText: "To by\u0142 pierwszy tryb sterowania - sterowanie kontrolerami
+    fizycznymi. Kolejnym z tryb\xF3w jest sterowanie kontrolerem wirtualnym. Naci\u015Bnij
+    przycisk Y na lewym kontrolerze, aby prze\u0142\u0105czy\u0107 si\u0119 na sterowanie
+    kontrolerem wirtualnym."
+  actionType: 0
+  requiredAction: {fileID: 7554192121763530659, guid: d5da3bce2701a8e4995edc4a3c00f62a, type: 3}

@@ -7,96 +7,48 @@
       "RelativeMoniker": "D:0:0:{1F23C25F-46B4-BFDA-55FF-BAC69C4A3D61}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\treeswitcheditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\vignettetogglesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\vignettetogglesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\virtualstickstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\virtualstickstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\forest\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\forest\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\virtualinputswitchstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\virtualinputswitchstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Library\\PackageCache\\com.unity.ugui@7056cb05de4c\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@7056cb05de4c\\Editor\\UGUI\\UI\\GraphicEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\pausemenututorialstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\pausemenututorialstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\inputmodeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\inputmodeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\tutorialstepbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\tutorialstepbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\vignette\\vignettecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vignette\\vignettecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\startstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\startstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\vignettestrengthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\vignettestrengthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\dronecameraswitchstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\dronecameraswitchstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\screen\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\basictutorialstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\basictutorialstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\virtualinputtutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\virtualinputtutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\screen\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screen\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\windsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\windsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\dronemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\dronemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\simplemovementswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\simplemovementswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\windcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\windcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\cameramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\droneinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\droneinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\rotorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\rotorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\controllerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\controllerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\rotationswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\rotationswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\toggleobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\toggleobjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\pausemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\pausemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\menuscripts\\dronepositionreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscripts\\dronepositionreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\assets\\scripts\\drone\\virtualinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\virtualinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneBatteryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Drone\\DroneBatteryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\BillboardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Forest\\BillboardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\BillboardLOD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Forest\\BillboardLOD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -116,285 +68,150 @@
               "RelativeDocumentMoniker": "Assets\\Editor\\TreeSwitchEditor.cs",
               "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Editor\\TreeSwitchEditor.cs",
               "RelativeToolTip": "Assets\\Editor\\TreeSwitchEditor.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwE8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T12:53:10.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BillboardLOD.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\BillboardLOD.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Forest\\BillboardLOD.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\BillboardLOD.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Forest\\BillboardLOD.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "VirtualStickStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\VirtualStickStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\VirtualStickStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\VirtualStickStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\VirtualStickStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T15:29:31.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BillboardManager.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\BillboardManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Forest\\BillboardManager.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\BillboardManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Forest\\BillboardManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T15:22:38.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GraphicEditor.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Library\\PackageCache\\com.unity.ugui@7056cb05de4c\\Editor\\UGUI\\UI\\GraphicEditor.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@7056cb05de4c\\Editor\\UGUI\\UI\\GraphicEditor.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Library\\PackageCache\\com.unity.ugui@7056cb05de4c\\Editor\\UGUI\\UI\\GraphicEditor.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@7056cb05de4c\\Editor\\UGUI\\UI\\GraphicEditor.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAArwDEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T15:11:35.976Z",
+              "WhenOpened": "2025-11-21T15:13:55.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Billboard.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\Billboard.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Forest\\Billboard.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Forest\\Billboard.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Forest\\Billboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Title": "VirtualInputSwitchStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\VirtualInputSwitchStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\VirtualInputSwitchStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\VirtualInputSwitchStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\VirtualInputSwitchStep.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T14:40:11.496Z"
+              "WhenOpened": "2025-11-21T15:09:41.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DroneBatteryController.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneBatteryController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\DroneBatteryController.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneBatteryController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\DroneBatteryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TutorialStepBase.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T10:43:40.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WindSetting.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\WindSetting.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\WindSetting.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\WindSetting.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\WindSetting.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T12:27:38.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WindController.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\WindController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\WindController.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\WindController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\WindController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T12:08:58.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SimpleMovementSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\SimpleMovementSwitch.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\SimpleMovementSwitch.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\SimpleMovementSwitch.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\SimpleMovementSwitch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T11:34:19.1Z"
+              "WhenOpened": "2025-11-21T15:08:12.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "VignetteController.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Vignette\\VignetteController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Vignette\\VignetteController.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Vignette\\VignetteController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Vignette\\VignetteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB0AAABGAAAAAAAAAA==",
+              "Title": "StartStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\StartStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\StartStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\StartStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\StartStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:32:30.397Z"
+              "WhenOpened": "2025-11-21T15:02:51.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PauseMenuTutorialStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\PauseMenuTutorialStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\PauseMenuTutorialStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\PauseMenuTutorialStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\PauseMenuTutorialStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:59:57.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DroneCameraSwitchStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\DroneCameraSwitchStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\DroneCameraSwitchStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\DroneCameraSwitchStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\DroneCameraSwitchStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:58:12.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "BasicTutorialStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:58:06.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VirtualInputTutorial.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\VirtualInputTutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\VirtualInputTutorial.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\VirtualInputTutorial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\VirtualInputTutorial.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:55:48.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\TutorialManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T14:48:01.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UiManager.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Screen\\UiManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Screen\\UiManager.cs",
               "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Screen\\UiManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Screen\\UiManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:32:01.014Z"
+              "WhenOpened": "2025-11-21T14:44:34.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VignetteToggleSetting.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\VignetteToggleSetting.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\VignetteToggleSetting.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\VignetteToggleSetting.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\VignetteToggleSetting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:31:27.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VignetteStrengthController.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\VignetteStrengthController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\VignetteStrengthController.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\VignetteStrengthController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\VignetteStrengthController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:31:17.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ToggleObjectController.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\ToggleObjectController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\ToggleObjectController.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\ToggleObjectController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\ToggleObjectController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:31:08.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RotationSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\RotationSwitch.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\RotationSwitch.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\RotationSwitch.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\RotationSwitch.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:31:04.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PauseMenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\PauseMenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\PauseMenuManager.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\PauseMenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\PauseMenuManager.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:30:31.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DronePositionReset.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\DronePositionReset.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScripts\\DronePositionReset.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\MenuScripts\\DronePositionReset.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuScripts\\DronePositionReset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:30:27.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VirtualInput.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\VirtualInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\VirtualInput.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\VirtualInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\VirtualInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:30:21.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InputModeSwitcher.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\InputModeSwitcher.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\InputModeSwitcher.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\InputModeSwitcher.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\InputModeSwitcher.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:30:04.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DroneMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\DroneMovement.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\DroneMovement.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAgwH0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:29:39.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DroneInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\DroneInfo.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneInfo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\DroneInfo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:29:28.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RotorController.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\RotorController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\RotorController.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\RotorController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\RotorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:23:53.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ControllerInput.cs",
-              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\ControllerInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\ControllerInput.cs",
-              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\ControllerInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\ControllerInput.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T10:23:32.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\CameraManager.cs",
               "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\CameraManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Drone\\CameraManager.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwGQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwCoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T10:23:17.898Z"
             }

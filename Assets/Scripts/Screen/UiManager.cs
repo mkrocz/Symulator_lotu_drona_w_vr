@@ -1,6 +1,8 @@
 using TMPro;
 using UnityEngine;
 
+// Updates a UI text element with information about the drone's position,
+// horizontal and vertical speed, and optionally wind data if enabled.
 public class UiManager : MonoBehaviour
 {
     public DroneInfo droneInfo;
@@ -23,12 +25,6 @@ public class UiManager : MonoBehaviour
 
         uiText.text = $"Pozycja: {pos}\nPrêdkoœæ pozioma: {hSpeed:F1} m/s\nPrêdkoœæ pionowa: {vSpeed:F1} m/s";
 
-        /*
-        if (isWindActive)
-        {
-            uiText.text += $"\nWiatr: {wind}";
-        }
-        */
 
         if (isWindActive)
         {

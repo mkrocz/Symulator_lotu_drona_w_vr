@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// Rotates the object so that it always faces the target camera horizontally.
+// The camera should have the "MainCamera" tag to be assigned automatically.
 public class Billboard : MonoBehaviour
 {
     public Camera targetCamera;
@@ -17,7 +19,4 @@ public class Billboard : MonoBehaviour
         transform.LookAt(2 * transform.position - camPos);
 
     }
-    
-
-
 }

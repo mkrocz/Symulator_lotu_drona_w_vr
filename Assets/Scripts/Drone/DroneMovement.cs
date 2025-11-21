@@ -3,6 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class DroneMovement : MonoBehaviour
 {
+    // Movement settings
     public float ascendSpeed = 1.5f;
     public float moveSpeed = 2f;
     public float rotateSpeed = 90f;
@@ -14,13 +15,13 @@ public class DroneMovement : MonoBehaviour
     private Rigidbody rb;
 
 
-    // Realistyczny ruch drona
+    // Drone tilting
     private bool simpleMovement;
     public Transform droneModel;
     public float tiltAmount = 15f;
     public float tiltSpeed = 5f;
 
-    // Wpływ wiatru
+    // Wind influence
     bool isWindActive;
     public WindController wind;
     public float windInfluence = 0.5f;
@@ -31,39 +32,27 @@ public class DroneMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         simpleMovement = PlayerPrefs.GetInt("SimpleMovement", 0) == 1;
         isWindActive = PlayerPrefs.GetInt("Wind", 0) == 1;
-        // Potrzebne do obliczenia predkosci
-        //lastPosition = rb.position;
     }
 
+    // Moves the drone object based on input.
+    // Handles horizontal and vertical movement, rotation,
+    // tilting and wind influence.
     public void Move(Vector3 inputMovement, float inputAscend, float inputYaw)
     {
-        // Ruch poziomy
         Vector3 horizontalMovement = transform.forward * inputMovement.z + transform.right * inputMovement.x;
 
-        // Ruch pionowy 
         Vector3 verticalMovement = Vector3.up * inputAscend;
 
-        // Suma
         Vector3 totalMovement = (horizontalMovement * moveSpeed) + (verticalMovement * ascendSpeed);
         rb.MovePosition(rb.position + totalMovement * Time.fixedDeltaTime);
 
-        // Obrot (implementacja bez skokowego obrotu)
-        /*
-        float yaw = inputYaw * rotateSpeed * Time.fixedDeltaTime;
-        rb.MoveRotation(rb.rotation * Quaternion.Euler(0, yaw, 0));
-        */
-
-
-        // Obrot (plynny/skokowy obrot)
         if (!snapRotation)
         {
-            // plynny obrot
             float yaw = inputYaw * rotateSpeed * Time.fixedDeltaTime;
             rb.MoveRotation(rb.rotation * Quaternion.Euler(0, yaw, 0));
         }
         else
         {
-            // skokowy obrót
             if (Time.time >= nextSnapTime)
             {
                 if (inputYaw > 0.5f)
@@ -78,9 +67,12 @@ public class DroneMovement : MonoBehaviour
                 }
             }
         }
-        // Utrzymanie poziomu
+        
+        // Maintaining level
         Quaternion desiredRotation = Quaternion.Euler(0, rb.rotation.eulerAngles.y, 0);
         rb.rotation = Quaternion.RotateTowards(rb.rotation, desiredRotation, 360 * Time.fixedDeltaTime);
+
+
 
         if (!simpleMovement)
             DroneTilting(totalMovement);
@@ -91,9 +83,9 @@ public class DroneMovement : MonoBehaviour
     }
 
 
+    // Handles drone visual tilting, separate from the main movement logic.
     private void DroneTilting(Vector3 totalMovement)
     {
-        // Przechylanie drona przy poruszaniu
         if (droneModel != null)
         {
             Vector3 worldVelocityEstimate = totalMovement;
@@ -107,6 +99,8 @@ public class DroneMovement : MonoBehaviour
         }
     }
 
+    // Applies the current wind force from the WindController to the drone,
+    // scaled by windInfluence and adjusted for FixedUpdate deltaTime.
     private void WindInfluence(Rigidbody rb)
     {
         if (wind != null && windInfluence > 0f)
