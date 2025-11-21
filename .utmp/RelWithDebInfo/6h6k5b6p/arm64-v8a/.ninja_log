@@ -1,0 +1,10 @@
+# ninja log v5
+34	2152	7843947604527221	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a1a6c6c864d71f53
+57	2199	7843947605024689	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	75b60c096b402ac5
+71	2245	7843947605472385	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e13171f8763e4ac3
+11	2248	7843947605467308	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	b600a9bd41d4e58b
+22	2318	7843947606137639	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	64ddcb7ed288db57
+47	2654	7843947609672834	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	db48e2ea76cd67cb
+84	2720	7843947610336405	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b5121ed77eabdec4
+0	2848	7843947611607188	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	3b08987b64654f90
+2849	3063	7843947613813405	C:/Users/Michal/unity/Symulator_lotu_drona_w_vr/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6h6k5b6p/obj/arm64-v8a/libgame.so	361776db2060c813
