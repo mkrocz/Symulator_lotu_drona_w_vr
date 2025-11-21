@@ -39,6 +39,8 @@ public class CameraManager : MonoBehaviour
         SetCameraView(isFPV);
     }
 
+    // Switches camera view to drone or user perspective
+    // Updates screen, vignette and snap rotation accordingly
     public void SetCameraView(bool useFPV)
     {
         isVignetteEnabled = PlayerPrefs.GetInt("Vignette") == 1;

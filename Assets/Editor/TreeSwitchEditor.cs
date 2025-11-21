@@ -2,6 +2,8 @@
 using UnityEditor;
 using System.Collections.Generic;
 
+// Editor window tool for converting Unity Terrain trees into individual GameObjects.
+// Creates a parent group for all generated trees and removes them from the TerrainData.
 public class TreeSwitchEditor : EditorWindow
 {
     private Terrain terrain;

@@ -1,26 +1,32 @@
-﻿using UnityEngine;
+using UnityEngine;
+using System;
 
-
-// Reads the positions of virtual levers in the scene and converts them
-// into movement and rotation input for the DroneMovement component.
-public class VirtualInput : MonoBehaviour
+// Reads virtual joystick input from move and control levers for the tutorial.
+// Converts lever rotation into normalized 2D input values and triggers events
+// when movement exceeds a small threshold.
+public class VirtualInputTutorial : MonoBehaviour
 {
     public Transform moveLever;
     public Transform controlLever;
     private float maxLeverAngle = 20f;
 
-    public DroneMovement droneMovement;
+    public event Action OnMove;
+    public event Action OnAscend;
+    public event Action OnYaw;
 
     void FixedUpdate()
     {
         Vector2 move = GetLeverInput2D(moveLever);
         Vector2 control = GetLeverInput2D(controlLever);
 
-        Vector3 moveVector = new Vector3(move.x, 0, move.y);
-        float ascend = control.y;
-        float yaw = control.x;
+        if (move.magnitude > 0.2f)
+            OnMove?.Invoke();
 
-        droneMovement.Move(moveVector, ascend, yaw);
+        if (Mathf.Abs(control.y) > 0.2f)
+            OnAscend?.Invoke();
+
+        if (Mathf.Abs(control.x) > 0.2f)
+            OnYaw?.Invoke();
     }
 
     Vector2 GetLeverInput2D(Transform lever)
@@ -38,7 +44,6 @@ public class VirtualInput : MonoBehaviour
 
         if (input.magnitude > 1f)
             input.Normalize();
-
 
         return input;
     }

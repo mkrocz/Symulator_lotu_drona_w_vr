@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Provides information about drone's posiotion and speed.
 public class DroneInfo : MonoBehaviour
 {
     public Rigidbody rb;
@@ -12,7 +13,7 @@ public class DroneInfo : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        lastPosition = rb.position;
+        lastPosition = rb.position; // needed for velocity calculations
     }
 
     private void FixedUpdate()

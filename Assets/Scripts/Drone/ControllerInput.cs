@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+// Reads controller input actions (move, ascend, descend, rotate)
+// and passes the values to the DroneMovement component.
 public class ControllerInput : MonoBehaviour
 {
     public InputActionReference moveInput;
