@@ -7,7 +7,6 @@ public class VignetteStrengthController : MonoBehaviour
 {
     public VignetteController vignetteController;
 
-    private string playerPrefKey = "vignetteStrength";
     private Slider slider;
 
     private void Awake()
@@ -22,9 +21,15 @@ public class VignetteStrengthController : MonoBehaviour
             float sliderValue = PlayerPrefs.GetFloat("vignetteStrengthSlider", 0f);
             slider.value = sliderValue;
             slider.onValueChanged.AddListener(OnValueChanged);
+            OnStartup(sliderValue);
         }
-        float vignetteStrength = PlayerPrefs.GetFloat("vignetteStrength", 0f);
-        UpdateVignetteStrength(vignetteStrength);
+       
+    }
+
+    private void OnDisable()
+    {
+        if (slider != null)
+            slider.onValueChanged.RemoveListener(OnValueChanged);
     }
 
     public void OnValueChanged(float sliderValue)
@@ -32,8 +37,7 @@ public class VignetteStrengthController : MonoBehaviour
         PlayerPrefs.SetFloat("vignetteStrengthSlider", sliderValue);
         PlayerPrefs.Save();
 
-        // Convert slider value (0-1) to vignette aperture (0.9–0.6)
-        float vignetteStrength = (0.9f - (sliderValue * 0.3f));
+        float vignetteStrength = SliderToVignette(sliderValue);
         PlayerPrefs.SetFloat("vignetteStrength", vignetteStrength);
 
         UpdateVignetteStrength(vignetteStrength);
@@ -43,4 +47,19 @@ public class VignetteStrengthController : MonoBehaviour
     {
         vignetteController.targetAperture = vignetteStrength;
     }
+
+    private void OnStartup(float sliderValue)
+    {
+        float vignetteStrength = SliderToVignette(sliderValue);
+        PlayerPrefs.SetFloat("vignetteStrength", vignetteStrength);
+        UpdateVignetteStrength(vignetteStrength);
+
+    }
+
+    private float SliderToVignette(float sliderValue)
+    {
+        // Convert slider value (0-1) to vignette aperture (0.9–0.6)
+        return 0.9f - (sliderValue * 0.3f);
+    }
+
 }
