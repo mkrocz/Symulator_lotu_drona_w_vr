@@ -30,6 +30,8 @@ public class DroneMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
+        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         simpleMovement = PlayerPrefs.GetInt("SimpleMovement", 0) == 1;
         isWindActive = PlayerPrefs.GetInt("Wind", 0) == 1;
     }
@@ -39,12 +41,11 @@ public class DroneMovement : MonoBehaviour
     // tilting and wind influence.
     public void Move(Vector3 inputMovement, float inputAscend, float inputYaw)
     {
-        Vector3 horizontalMovement = transform.forward * inputMovement.z + transform.right * inputMovement.x;
+        Vector3 horizontalDir = transform.forward * inputMovement.z + transform.right * inputMovement.x;
+        Vector3 targetVelocity = horizontalDir * moveSpeed + Vector3.up * inputAscend * ascendSpeed;
 
-        Vector3 verticalMovement = Vector3.up * inputAscend;
-
-        Vector3 totalMovement = (horizontalMovement * moveSpeed) + (verticalMovement * ascendSpeed);
-        rb.MovePosition(rb.position + totalMovement * Time.fixedDeltaTime);
+        // Ustawiamy velocity bezpośrednio na Rigidbody
+        rb.linearVelocity = targetVelocity;
 
         if (!snapRotation)
         {
@@ -67,7 +68,7 @@ public class DroneMovement : MonoBehaviour
                 }
             }
         }
-        
+
         // Maintaining level
         Quaternion desiredRotation = Quaternion.Euler(0, rb.rotation.eulerAngles.y, 0);
         rb.rotation = Quaternion.RotateTowards(rb.rotation, desiredRotation, 360 * Time.fixedDeltaTime);
@@ -75,7 +76,7 @@ public class DroneMovement : MonoBehaviour
 
 
         if (!simpleMovement)
-            DroneTilting(totalMovement);
+            DroneTilting(rb.linearVelocity);
 
         if (isWindActive)
             WindInfluence(rb);

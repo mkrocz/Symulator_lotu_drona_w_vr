@@ -28,6 +28,7 @@ public class PauseMenuTutorialStep : TutorialStepBase
             else
             {
                 manager.pauseMenuController.pauseInput.action.Disable();
+                manager.DisableAllInput();
 
                 manager.continuePrompt.SetActive(true);
                 manager.wasActionPerformed = true;

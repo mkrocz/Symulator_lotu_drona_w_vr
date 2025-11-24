@@ -9,7 +9,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class TutorialManager : MonoBehaviour
 {
     public List<TutorialStepBase> steps; // List of steps forming the tutorial
-    int currentStep = 0; // Index of the current tutorial step
+    int currentStep = 10; // Index of the current tutorial step
 
     public XRGrabInteractable analogLeft;
     public XRGrabInteractable analogRight;
@@ -21,6 +21,7 @@ public class TutorialManager : MonoBehaviour
     public InputModeSwitcher inputModeSwitcher;
     public PauseMenuController pauseMenuController;
     public CameraManager cameraManager;
+    public WindController windController;
 
     public InputActionReference nextStep;
 
@@ -36,6 +37,7 @@ public class TutorialManager : MonoBehaviour
 
     void Start()
     {
+        DisableAllInput();
         nextStep.action.Enable();
 
         // Subscribe to virtual input callbacks
@@ -47,7 +49,9 @@ public class TutorialManager : MonoBehaviour
         analogLeft.enabled = false;
         analogRight.enabled = false;
 
-        StartStep(0);
+        windController.enabled = false;
+
+        StartStep(10);
     }
 
     // Starts a tutorial step at the given index:
@@ -111,6 +115,17 @@ public class TutorialManager : MonoBehaviour
         inputModeSwitcher.switchInput.action.Disable();
         pauseMenuController.pauseInput.action.Disable();
         cameraManager.switchViewAction.action.Disable();
+    }
+
+    public void EnableAllInput()
+    {
+        controllerInput.moveInput.action.Enable();
+        controllerInput.ascendInput.action.Enable();
+        controllerInput.descendInput.action.Enable();
+        controllerInput.rotateInput.action.Enable();
+        inputModeSwitcher.switchInput.action.Enable();
+        pauseMenuController.pauseInput.action.Enable();
+        cameraManager.switchViewAction.action.Enable();
     }
 
     // Called by virtual input events. Marks the required action as performed

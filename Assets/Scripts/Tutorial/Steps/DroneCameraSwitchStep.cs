@@ -27,6 +27,7 @@ public class DroneCameraSwitchStep : TutorialStepBase
 
         if (pressCount == 1)
         {
+            manager.EnableAllInput();
             manager.inputModeSwitcher.switchInput.action.Disable();
             manager.pauseMenuController.pauseInput.action.Disable();
 
@@ -35,8 +36,7 @@ public class DroneCameraSwitchStep : TutorialStepBase
 
         if (pressCount == 2)
         {
-
-            manager.cameraManager.switchViewAction.action.Disable();
+            manager.DisableAllInput();
             manager.continuePrompt.SetActive(true);
             manager.wasActionPerformed = true;
 
