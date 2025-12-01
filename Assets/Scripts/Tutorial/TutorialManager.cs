@@ -9,7 +9,7 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class TutorialManager : MonoBehaviour
 {
     public List<TutorialStepBase> steps; // List of steps forming the tutorial
-    int currentStep = 10; // Index of the current tutorial step
+    int currentStep = 0; // Index of the current tutorial step
 
     public XRGrabInteractable analogLeft;
     public XRGrabInteractable analogRight;
@@ -51,7 +51,7 @@ public class TutorialManager : MonoBehaviour
 
         windController.enabled = false;
 
-        StartStep(10);
+        StartStep(0);
     }
 
     // Starts a tutorial step at the given index:
