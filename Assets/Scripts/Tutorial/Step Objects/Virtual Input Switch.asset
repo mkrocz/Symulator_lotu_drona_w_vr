@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Virtual Input Switch
   m_EditorClassIdentifier: Assembly-CSharp::VirtualInputSwitchStep
   instructionText: "To by\u0142 pierwszy tryb sterowania - sterowanie kontrolerami
-    fizycznymi. Kolejnym z tryb\xF3w jest sterowanie kontrolerem wirtualnym. Naci\u015Bnij
+    fizycznymi. Kolejnym z tryb\xF3w jest sterowanie kontrolerem wirtualnym.\nNaci\u015Bnij
     przycisk Y na lewym kontrolerze, aby prze\u0142\u0105czy\u0107 si\u0119 na sterowanie
     kontrolerem wirtualnym."
   actionType: 0

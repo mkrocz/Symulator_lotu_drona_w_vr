@@ -27,7 +27,7 @@ public class DroneMovement : MonoBehaviour
     public float windInfluence = 0.5f;
 
 
-    void Start()
+    void OnEnable()
     {
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;

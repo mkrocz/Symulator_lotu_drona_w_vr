@@ -24,7 +24,7 @@ public class PauseMenuController : MonoBehaviour
 
     private bool isPaused = false;
 
-    void Start()
+    void OnEnable()
     {
         pauseMenuUI.SetActive(false);
         SetRayInteractorsActive(false);

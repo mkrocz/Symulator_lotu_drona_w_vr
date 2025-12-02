@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DroneCameraSwitchStep
   instructionText: "Na koniec spr\xF3buj prze\u0142\u0105czy\u0107 si\u0119 na tryb
     widoku z perspektywy drona. W tym widoku sterowanie jest ustawione na tryb kontroler\xF3w
-    fizycznych. Prze\u0142\u0105cz perspetyw\u0119 przyciskiem X na lewym kontrolerze,
-    a nast\u0119pnie wr\xF3c do obecnego widoku wciskaj\u0105c przycisk ponownie.\r\n"
+    fizycznych.\nPrze\u0142\u0105cz perspektyw\u0119 przyciskiem X na lewym kontrolerze,
+    a nast\u0119pnie wr\xF3\u0107 do obecnego widoku wciskaj\u0105c przycisk ponownie.\r\n"
   actionType: 0
   requiredAction: {fileID: -8872610916753371985, guid: d5da3bce2701a8e4995edc4a3c00f62a, type: 3}

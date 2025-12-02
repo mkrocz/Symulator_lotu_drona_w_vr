@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,6 +19,9 @@ public class ControllerInput : MonoBehaviour
         ascendInput.action.Enable();
         descendInput.action.Enable();
         rotateInput.action.Enable();
+
+
+        StartCoroutine(EnableNextFrame());
     }
 
     void FixedUpdate()
@@ -33,5 +37,16 @@ public class ControllerInput : MonoBehaviour
         Vector3 moveVector = new Vector3(move.x, 0, move.y);
 
         droneMovement.Move(moveVector, verticalInput, yawInput);
+    }
+
+
+
+    IEnumerator EnableNextFrame()
+    {
+        yield return null;
+        moveInput.action.Enable();
+        ascendInput.action.Enable();
+        descendInput.action.Enable();
+        rotateInput.action.Enable();
     }
 }

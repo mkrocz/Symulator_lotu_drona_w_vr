@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 // Manages the VR tutorial flow using a list of tutorial steps.
@@ -16,6 +17,7 @@ public class TutorialManager : MonoBehaviour
     public GameObject tutorialPanel;
     public TMPro.TextMeshProUGUI instructionText;
     public GameObject continuePrompt;
+    public GameObject endPrompt;
     public ControllerInput controllerInput;
     public VirtualInputTutorial virtualInput;
     public InputModeSwitcher inputModeSwitcher;
@@ -52,6 +54,8 @@ public class TutorialManager : MonoBehaviour
         windController.enabled = false;
 
         StartStep(0);
+
+        DisableAllInput();
     }
 
     // Starts a tutorial step at the given index:
@@ -103,7 +107,10 @@ public class TutorialManager : MonoBehaviour
         if (currentStep + 1 < steps.Count)
             StartStep(currentStep + 1);
         else
+        {
             tutorialPanel.SetActive(false);
+            SceneManager.LoadScene("Main Menu");
+        }
     }
 
     public void DisableAllInput()

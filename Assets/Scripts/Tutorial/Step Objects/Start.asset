@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: Assembly-CSharp::StartStep
   instructionText: "Witaj w samouczku. Tutaj nauczysz si\u0119 podstaw sterowania
-    dronem. Wykonuj polecenia wy\u015Bwietlane na tym panelu. Po ich prawid\u0142owym
+    dronem.\nWykonuj polecenia wy\u015Bwietlane na tym panelu. Po ich prawid\u0142owym
     wykonaniu wy\u015Bwietli si\u0119 komunikat na dole okna. Oznaczenia przycisk\xF3w
-    mo\u017Cesz sprawdzi\u0107 na wirtualnym podgl\u0105dzie kontroler\xF3w. Do przechodzenia
-    dalej s\u0142u\u017Cy przycisk A na prawym kontrolerze. Wci\u015Bnij przycisk
-    A."
+    mo\u017Cesz sprawdzi\u0107 na wirtualnym podgl\u0105dzie kontroler\xF3w.\nDo
+    przechodzenia dalej s\u0142u\u017Cy przycisk A na prawym kontrolerze. Wci\u015Bnij
+    przycisk A."
   actionType: 0
   requiredAction: {fileID: -8443524273304930246, guid: d5da3bce2701a8e4995edc4a3c00f62a, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Virtual vertical movement
   m_EditorClassIdentifier: Assembly-CSharp::VirtualStickStep
   instructionText: "Do wznoszenia i opuszczania drona s\u0142u\u017Cy prawy dr\u0105\u017Cek.
-    Wychyl prawy dr\u0105\u017Cek do przodu."
+    Wychyl prawy dr\u0105\u017Cek do przodu lub do ty\u0142u."
   actionType: 2
   requiredAction: {fileID: 0}
   stick: 1

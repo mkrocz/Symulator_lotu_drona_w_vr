@@ -248,7 +248,7 @@
                 {
                     "name": "",
                     "id": "7fbb2a72-60ab-42ea-bea2-3f20a6dd9f8f",
-                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -259,7 +259,7 @@
                 {
                     "name": "",
                     "id": "2d374718-ad31-4052-8657-b6c62811d6cd",
-                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

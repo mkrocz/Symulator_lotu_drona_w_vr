@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Virtual horizontal movement
   m_EditorClassIdentifier: Assembly-CSharp::VirtualStickStep
   instructionText: "Do poruszania dronem w poziomie s\u0142u\u017Cy lewy wirtualny
-    dr\u0105\u017Cek. Porusz nim."
+    dr\u0105\u017Cek. Wyci\u0105gnij d\u0142o\u0144 tak, aby chwyci\u0107 lewy dr\u0105\u017Cek.
+    Kiedy z\u0142apanie dr\u0105\u017Cka b\u0119dzie mo\u017Cliwe, poczujesz wibracj\u0119.
+    Wtedy wci\u015Bnij i trzymaj przycisk chwytu tak, aby trzyma\u0107 dr\u0105\u017Cek
+    w d\u0142oni, i porusz nim."
   actionType: 1
   requiredAction: {fileID: 0}
   stick: 0

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Pause Menu
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenuTutorialStep
   instructionText: "Menu pauzy pozwala na zatrzymanie rozgrywki i zmian\u0119 ustawie\u0144.
-    Aby wybra\u0107 opcj\u0119 w menu wska\u017C j\u0105 kontrolerem i wci\u015Bnij
-    spust na kontrolerze. Naci\u015Bnij przycisk A, aby zatrzyma\u0107 gr\u0119 i
-    wy\u015Bwietli\u0107 menu, a nast\u0119pnie naci\u015Bnij A ponownie, \u017Ceby
+    Aby wybra\u0107 opcj\u0119 w menu, wska\u017C j\u0105 kontrolerem i wci\u015Bnij
+    spust na kontrolerze.\nNaci\u015Bnij przycisk B, aby zatrzyma\u0107 symulacj\u0119
+    i wy\u015Bwietli\u0107 menu, a nast\u0119pnie naci\u015Bnij B ponownie, \u017Ceby
     j\u0105 wznowi\u0107."
   actionType: 0
   requiredAction: {fileID: 3334010640046666798, guid: d5da3bce2701a8e4995edc4a3c00f62a, type: 3}
