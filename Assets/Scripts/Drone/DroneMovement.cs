@@ -44,7 +44,6 @@ public class DroneMovement : MonoBehaviour
         Vector3 horizontalDir = transform.forward * inputMovement.z + transform.right * inputMovement.x;
         Vector3 targetVelocity = horizontalDir * moveSpeed + Vector3.up * inputAscend * ascendSpeed;
 
-        // Ustawiamy velocity bezpośrednio na Rigidbody
         rb.linearVelocity = targetVelocity;
 
         if (!snapRotation)

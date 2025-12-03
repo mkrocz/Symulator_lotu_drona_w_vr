@@ -6,14 +6,9 @@ public class RotorController : MonoBehaviour
     public Rigidbody drone;
     void Start()
     {
-        
+        UpdateRotors(true);
     }
 
-    void Update()
-    {
-        bool running = drone.position.y >= 50.1f;
-        UpdateRotors(running);
-    }
 
     private void UpdateRotors(bool state)
     {

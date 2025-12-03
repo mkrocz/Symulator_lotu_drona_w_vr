@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\tutorialstepbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\tutorialstepbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\scripts\\tutorial\\steps\\basictutorialstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial\\steps\\basictutorialstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|c:\\users\\michal\\unity\\symulator_lotu_drona_w_vr\\assets\\tests\\windcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C15AD0B-D7A5-9EF5-BD3B-6D7630BB3484}|Assembly-CSharp.csproj|solutionrelative:assets\\tests\\windcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,11 +82,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "TutorialStepBase.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\TutorialStepBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:08:46.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicTutorialStep.cs",
+              "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "ToolTip": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tutorial\\Steps\\BasicTutorialStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:08:36.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "VirtualInputTests.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Tests\\VirtualInputTests.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\VirtualInputTests.cs",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DroneWindIntegrationTest.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Tests\\DroneWindIntegrationTest.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\DroneWindIntegrationTest.cs",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DroneInfoTests.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Tests\\DroneInfoTests.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\DroneInfoTests.cs",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SceneFinder.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Editor\\SceneFinder.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\SceneFinder.cs",
@@ -126,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "TutorialManager.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Tutorial\\TutorialManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial\\TutorialManager.cs",
@@ -138,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PauseMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Menu\\PauseMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\PauseMenuManager.cs",
@@ -150,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "WindController.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\WindController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\WindController.cs",
@@ -162,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "VirtualInput.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\VirtualInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\VirtualInput.cs",
@@ -174,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RotorController.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\RotorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\RotorController.cs",
@@ -186,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WindControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Tests\\WindControllerTests.cs",
               "RelativeDocumentMoniker": "Assets\\Tests\\WindControllerTests.cs",
@@ -199,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MainMenuLoader.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Menu\\MainMenuLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\MainMenuLoader.cs",
@@ -211,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "InputModeSwitcher.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\InputModeSwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\InputModeSwitcher.cs",
@@ -223,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DroneMovement.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\DroneMovement.cs",
@@ -235,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DroneInfo.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\DroneInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\DroneInfo.cs",
@@ -247,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ControllerInput.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\ControllerInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\ControllerInput.cs",
@@ -259,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CameraManager.cs",
               "DocumentMoniker": "C:\\Users\\Michal\\unity\\Symulator_lotu_drona_w_vr\\Assets\\Scripts\\Drone\\CameraManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\CameraManager.cs",
